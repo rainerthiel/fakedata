@@ -1,77 +1,51 @@
   {
-    "Cases" [
-      {
-        CaseID: "00010288",
-        Stage: "Negotiating",
-        Age: "11 days",
-        ClaimantRep: "Claimant Solicitor",
-        DefendantRep: "Defendant Insurer"
-      },
-      {
-        CaseID: "00010369",
-        Stage: "Mediating",
-        Age: "33 days",
-        ClaimantRep: "Claimant Solicitor",
-        DefendantRep: "Defendant Insurer"
-      },
-      {
-        CaseID: "00010272",
-        Stage: "Intake",
-        Age: "33 days",
-        ClaimantRep: "Claimant Solicitor",
-        DefendantRep: "Defendant Insurer"
-      }
-    ],
-    "ScheduleOfLosses": [ Claimant: "14,000",
-      HeadOfLoss: "Schedule of Losses",
-      Defendant: "9,000",
-      State: "Negotiating",
-      Last_Action: "2020-01-15",
-      items: [
-        {
-          HeadOfLoss: "PSLA",
-          Claimant: "8,000",
-          Defendant: "6,000",
-          State: "Arbitrating",
-          Last_Action: "2020-05-24"
-        },
-        {
-          HeadOfLoss: "Financial - Past",
-          Claimant: "1,000",
-          Defendant: "1,000",
-          State: "Settled",
-          Last_Action: "2020-05-24",
-          items: [
-            {
-              Claimant: "500",
-              HeadOfLoss: "Loss of Earnings",
-              Defendant: "500",
-              State: "Negotiating",
-              Last_Action: "2020-05-11"
-            },
-            {
-              Claimant: "500",
-              HeadOfLoss: "Medical",
-              Defendant: "500",
-              State: "Negotiating",
-              Last_Action: "2020-05-11"
-            }
-          ]
-        },
-        {
-          HeadOfLoss: "Financial - Future",
-          Claimant: "2,500",
-          Defendant: "500",
-          State: "Negotiating",
-          Last_Action: "2020-05-24"
-        },
-        {
-          HeadOfLoss: "Legal Costs",
-          Claimant: "2,500",
-          Defendant: "1,500",
-          State: "Negotiating",
-          Last_Action: "2020-05-24"
-        }
-      ]
-    ]
+  	"posts": [{
+  			"id": 1,
+  			"title": "Post 1"
+  		},
+  		{
+  			"id": 2,
+  			"title": "Post 2"
+  		},
+  		{
+  			"id": 3,
+  			"title": "Post 3"
+  		}
+  	],
+  	"comments": [{
+  			"id": 1,
+  			"body": "some comment",
+  			"postId": 1
+  		},
+  		{
+  			"id": 2,
+  			"body": "some comment",
+  			"postId": 1
+  		}
+  	],
+  	"profile": [{
+  		"name": "typicode"
+  	}],
+  	"Cases": [{
+  			"CaseID": "00010288",
+  			"Stage": "Negotiating",
+  			"Age": "11 days",
+  			"ClaimantRep": "Claimant Solicitor",
+  			"DefendantRep": "Defendant Insurer"
+  		},
+  		{
+  			"CaseID": "00010293",
+  			"Stage": "Intake",
+  			"Age": "2 days",
+  			"ClaimantRep": "Claimant Solicitor",
+  			"DefendantRep": "Defendant Insurer"
+  		},
+  		{
+  			"CaseID": "00010203",
+  			"Stage": "Mediating",
+  			"Age": "21 days",
+  			"ClaimantRep": "Claimant Solicitor",
+  			"DefendantRep": "Defendant Insurer"
+  		}
+  	]
   }
