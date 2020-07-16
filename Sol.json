@@ -1,0 +1,55 @@
+export const scheduleOfLosses = [
+  {
+    Claimant: "14,000",
+    HeadOfLoss: "Schedule of Losses",
+    Defendant: "9,000",
+    State: "Negotiating",
+    Last_Action: "2020-01-15",
+    items: [
+      {
+        HeadOfLoss: "PSLA",
+        Claimant: "8,000",
+        Defendant: "6,000",
+        State: "Arbitrating",
+        Last_Action: "2020-05-24"
+      },
+      {
+        HeadOfLoss: "Financial - Past",
+        Claimant: "1,000",
+        Defendant: "1,000",
+        State: "Settled",
+        Last_Action: "2020-05-24",
+        items: [
+          {
+            Claimant: "500",
+            HeadOfLoss: "Loss of Earnings",
+            Defendant: "500",
+            State: "Negotiating",
+            Last_Action: "2020-05-11"
+          },
+          {
+            Claimant: "500",
+            HeadOfLoss: "Medical",
+            Defendant: "500",
+            State: "Negotiating",
+            Last_Action: "2020-05-11"
+          }
+        ]
+      },
+      {
+        HeadOfLoss: "Financial - Future",
+        Claimant: "2,500",
+        Defendant: "500",
+        State: "Negotiating",
+        Last_Action: "2020-05-24"
+      },
+      {
+        HeadOfLoss: "Legal Costs",
+        Claimant: "2,500",
+        Defendant: "1,500",
+        State: "Negotiating",
+        Last_Action: "2020-05-24"
+      }
+    ]
+  }
+];
