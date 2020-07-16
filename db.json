@@ -21,7 +21,7 @@
         ClaimantRep: "Claimant Solicitor",
         DefendantRep: "Defendant Insurer"
       }
-    ]
+    ],
     "ScheduleOfLosses": [ Claimant: "14,000",
       HeadOfLoss: "Schedule of Losses",
       Defendant: "9,000",
