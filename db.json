@@ -1,4 +1,27 @@
   {
+    "Cases" [
+    {
+      CaseID: "00010288",
+      Stage: "Negotiating",
+      Age: "11 days",
+      Claimant Rep" "Claimant Solicitor",
+      Defendant Rep" "Defendant Insurer"
+    },
+    {
+      CaseID: "00010369",
+      Stage: "Mediating",
+      Age: "33 days",
+      Claimant Rep" "Claimant Solicitor",
+      Defendant Rep" "Defendant Insurer"
+    },
+    {
+      CaseID: "00010272",
+      Stage: "Intake",
+      Age: "33 days",
+      Claimant Rep" "Claimant Solicitor",
+      Defendant Rep" "Defendant Insurer"
+    }
+    ]
     "ScheduleOfLosses": [ Claimant: "14,000",
       HeadOfLoss: "Schedule of Losses",
       Defendant: "9,000",
